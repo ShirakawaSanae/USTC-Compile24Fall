@@ -1,0 +1,273 @@
+==========./testcases/functional-cases/0-io.cminus==========
+Immediate dominance of function main:
+label_entry: label_entry
+Loop Detection Result:
+1234								1234
+0								0
+==========./testcases/functional-cases/1-return.cminus==========
+Immediate dominance of function main:
+label_entry: label_entry
+Loop Detection Result:
+111								111
+111								111
+==========./testcases/functional-cases/2-calculate.cminus==========
+Immediate dominance of function main:
+label_entry: label_entry
+Loop Detection Result:
+123								123
+==========./testcases/functional-cases/3-output.cminus==========
+Immediate dominance of function main:
+label_entry: label_entry
+Loop Detection Result:
+11								11
+22222								22222
+0								0
+==========./testcases/functional-cases/4-if.cminus==========
+Immediate dominance of function main:
+label_entry: label_entry
+label8: label_entry
+label14: label_entry
+label20: label_entry
+label21: label8
+label23: label8
+label25: label8
+label26: label14
+label28: label14
+label30: label14
+Loop Detection Result:
+33								33
+0								0
+==========./testcases/functional-cases/5-while.cminus==========
+Immediate dominance of function main:
+label_entry: label_entry
+label2: label_entry
+label8: label2
+label12: label2
+Loop Detection Result:
+Loop header: label2
+Loop blocks: label2 label8 
+Sub loops: 
+0								0
+1								1
+2								2
+3								3
+4								4
+5								5
+6								6
+7								7
+8								8
+9								9
+0								0
+==========./testcases/functional-cases/6-array.cminus==========
+Immediate dominance of function main:
+label_entry: label_entry
+label3: label_entry
+label4: label_entry
+label7: label4
+label8: label4
+label11: label8
+label12: label8
+label15: label12
+label16: label12
+label20: label16
+label21: label16
+label25: label21
+label26: label21
+Loop Detection Result:
+11								11
+22								22
+33								33
+0								0
+==========./testcases/functional-cases/7-function.cminus==========
+Immediate dominance of function min:
+label_entry: label_entry
+label9: label_entry
+label11: label_entry
+label13: null
+Immediate dominance of function main:
+label_entry: label_entry
+Loop Detection Result:
+11								11
+22								22
+11								11
+0								0
+==========./testcases/functional-cases/8-store.cminus==========
+Immediate dominance of function store:
+label_entry: label_entry
+label9: label_entry
+label10: label_entry
+Immediate dominance of function main:
+label_entry: label_entry
+label3: label_entry
+label8: label3
+label16: label3
+label17: label16
+label22: label17
+label26: label17
+label28: label22
+label29: label22
+Loop Detection Result:
+Loop header: label17
+Loop blocks: label17 label29 label22 
+Sub loops: 
+Loop header: label3
+Loop blocks: label3 label8 
+Sub loops: 
+90								90
+0								0
+==========./testcases/functional-cases/9-fibonacci.cminus==========
+Immediate dominance of function fibonacci:
+label_entry: label_entry
+label6: label_entry
+label7: label_entry
+label12: null
+label13: label7
+label14: label7
+label22: null
+Immediate dominance of function main:
+label_entry: label_entry
+label2: label_entry
+label8: label2
+label13: label2
+Loop Detection Result:
+Loop header: label2
+Loop blocks: label2 label8 
+Sub loops: 
+0								0
+1								1
+1								1
+2								2
+3								3
+5								5
+8								8
+13								13
+21								21
+34								34
+0								0
+==========./testcases/functional-cases/10-float.cminus==========
+Immediate dominance of function main:
+label_entry: label_entry
+Loop Detection Result:
+2.850000							2.850000
+0								0
+==========./testcases/functional-cases/11-floatcall.cminus==========
+Immediate dominance of function mod:
+label_entry: label_entry
+Immediate dominance of function main:
+label_entry: label_entry
+Loop Detection Result:
+0.200000							0.200000
+0								0
+==========./testcases/functional-cases/12-global.cminus==========
+Immediate dominance of function randomLCG:
+label_entry: label_entry
+Immediate dominance of function randBin:
+label_entry: label_entry
+label4: label_entry
+label5: label_entry
+label6: null
+Immediate dominance of function returnToZeroSteps:
+label_entry: label_entry
+label2: label_entry
+label7: label2
+label10: label2
+label11: label7
+label14: label7
+label17: label7
+label24: label17
+label26: label17
+Immediate dominance of function main:
+label_entry: label_entry
+label1: label_entry
+label6: label1
+label10: label1
+Loop Detection Result:
+Loop header: label2
+Loop blocks: label2 label26 label17 label14 label7 label11 
+Sub loops: 
+Loop header: label1
+Loop blocks: label1 label6 
+Sub loops: 
+4								4
+2								2
+2								2
+4								4
+8								8
+2								2
+2								2
+2								2
+2								2
+2								2
+6								6
+2								2
+10								10
+8								8
+4								4
+2								2
+20								20
+2								2
+2								2
+8								8
+0								0
+==========./testcases/functional-cases/13-complex.cminus==========
+Immediate dominance of function max:
+label_entry: label_entry
+label9: label_entry
+label11: label_entry
+label13: null
+Immediate dominance of function knapsack:
+label_entry: label_entry
+label9: label_entry
+label10: label_entry
+label15: label10
+label16: label10
+label22: label16
+label23: label16
+label29: label23
+label35: label23
+label40: label29
+label41: label29
+label44: label35
+label45: label35
+label51: label45
+label56: label45
+label67: label45
+label74: label56
+label75: label56
+label83: label75
+label84: label75
+label89: label67
+label90: label67
+Immediate dominance of function main:
+label_entry: label_entry
+label2: label_entry
+label3: label_entry
+label6: label3
+label7: label3
+label10: label7
+label11: label7
+label14: label11
+label15: label11
+label18: label15
+label19: label15
+label22: label19
+label23: label19
+label26: label23
+label27: label23
+label30: label27
+label31: label27
+label34: label31
+label35: label31
+label38: label35
+label39: label35
+label41: label39
+label46: label41
+label50: label41
+label54: label46
+label55: label46
+Loop Detection Result:
+Loop header: label41
+Loop blocks: label41 label55 label46 
+Sub loops: 
+15								15
+0								0
